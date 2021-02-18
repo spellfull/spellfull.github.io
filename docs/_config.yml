@@ -5,27 +5,27 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-remote_theme: 'mmistakes/minimal-mistakes@4.22.0'
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
-minimal_mistakes_skin: 'default' # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: 'en-US'
-title: 'SpellFULL'
-title_separator: '-'
-subtitle: 'Documentation portal'
-name: &name 'Alchemy.io' # &name is a YAML anchor which can be *referenced later
-description: &description 'Codeless spells for your Azure data warehouse projects.'
+locale: "en-US"
+title: "SpellFULL"
+title_separator: "-"
+subtitle: "Documentation portal"
+name: &name "Alchemy.io" # &name is a YAML anchor which can be *referenced later
+description: &description "Codeless spells for your Azure data warehouse projects."
 url: https://spellfull.github.io # the base hostname & protocol for your site e.g. "https://spellfull.github.io"
-baseurl: '/default' # the subpath of your site, e.g. "/blog"
-repository: 'spellfull/spellfull.github.io'
+baseurl: "/default" # the subpath of your site, e.g. "/blog"
+repository: "spellfull/spellfull.github.io"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
-  provider: 'false' # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "custom"
+  provider: "false" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "custom"
   disqus:
     shortname:
   discourse:
@@ -57,75 +57,75 @@ algolia:
     - _posts/2017-11-28-post-exclude-search.md
 
 # SEO Related
-google_site_verification: 'UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y' # Replace this with your ID, or delete
+google_site_verification: "UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y" # Replace this with your ID, or delete
 bing_site_verification:
 yandex_site_verification:
 naver_site_verification:
 
 # Social Sharing
 twitter:
-  username: &twitter 'alchemy.io'
+  username: &twitter "alchemy.io"
 facebook:
-  username: &facebook 'alchemy.io'
+  username: &facebook "alchemy.io"
   app_id:
   publisher:
-og_image: '/assets/images/site-logo.png' # Open Graph/Twitter default site image
+og_image: "/assets/images/site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles, used in _includes/seo.html
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type: # Person or Organization (defaults to Person)
   name: # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - 'https://twitter.com/alchemy.io'
-    - 'https://www.facebook.com/alchemy.io'
+    - "https://twitter.com/alchemy.io"
+    - "https://www.facebook.com/alchemy.io"
 
 # Analytics
 analytics:
-  provider: 'google-universal' # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id: 'UA-2011187-3' # Replace this with your ID, or delete
+    tracking_id: "UA-2011187-3" # Replace this with your ID, or delete
     anonymize_ip: true
 
 # Site Author
 author:
   name: *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar: '/assets/images/michael-rose.jpg'
-  bio: 'Just another *boring*, *tattooed*, *time traveling*, *designer*.'
-  location: 'Auckland, NZ'
+  avatar: "/assets/images/michael-rose.jpg"
+  bio: "Just another *boring*, *tattooed*, *time traveling*, *designer*."
+  location: "Auckland, NZ"
   links:
-    - label: 'Made Mistakes'
-      icon: 'fas fa-fw fa-link'
-      url: 'https://mademistakes.com'
-    - label: 'Twitter'
-      icon: 'fab fa-fw fa-twitter-square'
-      url: 'https://twitter.com/mmistakes'
-    - label: 'GitHub'
-      icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/mmistakes'
-    - label: 'Instagram'
-      icon: 'fab fa-fw fa-instagram'
-      url: 'https://instagram.com/mmistakes'
+    - label: "Made Mistakes"
+      icon: "fas fa-fw fa-link"
+      url: "https://mademistakes.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
 
 # Site Footer
 footer:
   links:
-    - label: 'Twitter'
-      icon: 'fab fa-fw fa-twitter-square'
-      url: 'https://twitter.com/mmistakes'
-    - label: 'GitHub'
-      icon: 'fab fa-fw fa-github'
-      url: 'https://github.com/mmistakes'
-    - label: 'Instagram'
-      icon: 'fab fa-fw fa-instagram'
-      url: 'https://instagram.com/mmistakes'
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
 
 # Reading Files
 include:
   - .htaccess
   - _pages
 exclude:
-  - '*.sublime-project'
-  - '*.sublime-workspace'
+  - "*.sublime-project"
+  - "*.sublime-workspace"
   - vendor
   - .asset-cache
   - .bundle
@@ -150,8 +150,8 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: 'utf-8'
-markdown_ext: 'markdown,mkdown,mkdn,mkd,md'
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Conversion
 markdown: kramdown
@@ -190,7 +190,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: ''
+      path: ""
       type: posts
     values:
       layout: single
@@ -201,14 +201,14 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: '_pages'
+      path: "_pages"
       type: pages
     values:
       layout: single
       author_profile: true
   # _docs
   - scope:
-      path: ''
+      path: ""
       type: docs
     values:
       layout: single
@@ -217,10 +217,10 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: 'docs'
+        nav: "docs"
   # _recipes
   - scope:
-      path: ''
+      path: ""
       type: recipes
     values:
       layout: single
@@ -229,7 +229,7 @@ defaults:
       comments: true
   # _pets
   - scope:
-      path: ''
+      path: ""
       type: pets
     values:
       layout: single
@@ -238,7 +238,7 @@ defaults:
       comment: true
   # _portfolio
   - scope:
-      path: ''
+      path: ""
       type: portfolio
     values:
       layout: single
