@@ -12,21 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
+# minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
-title: Spell
+title: Alchemy.io
 # title_separator: "-"
-subtitle: Alchemy.io insights # site tagline that appears below site title in masthead
+subtitle: Codeless magic spells for Azure # site tagline that appears below site title in masthead
 name: Alchemy
-description: Codeless spells for your Azure data warehouse projects
+description: Codeless magic spells for your Azure data warehouse projects
 url: "https://spellfull.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # baseurl: "/" # the subpath of your site, e.g. "/blog"
 repository: "spellfull/spellfull.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: " " # overrides the website title displayed in the masthead, use " " for no title
+masthead_title: "Alchemy.io" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
@@ -299,3 +300,4 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
+# mailchimp-list: //redgadgets.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=08c6708f40

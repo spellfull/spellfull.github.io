@@ -29,7 +29,7 @@ npm i -g @alchemy/cli
 
 Spells extract new elements and cast magic. Read more about spells here[^spells].
 
-Let's see in practice what spells can do. First, let's extract a couple table definitions from the source database.
+Let's see in practice what spells can do. First, let's extract a couple of table definitions from the source database.
 
 [^spells]: See [**Spells** page]({{ "/spells/" | relative_url }}) for a list of Alchemy spells and what they do.
 
@@ -43,11 +43,11 @@ Now, let's do some magic!
 alchemy cast 'meta\demo\dbo\employee.yml'
 ```
 
-You are free to decide what new elements you want to cast.
+Decide what new elements you want to cast.
 
-The result of cast command can be a new Data Factory pipeline with all required objects and parameters, or it can be the new transformation or data warehouse dimension table.
+The result of cast command can be a new Data Factory pipeline with all required objects and parameters, or it can be a new SQL transformation code, or a data warehouse dimension table, etc.
 
-For example, the created Data Factory pipeline will connect to your source database and periodically copy defined tables, views, or dynamic queries as;
+For example, the auto generated Data Factory pipeline will connect to your source database and periodically copy defined tables, views, or dynamic queries as;
 
 - parquet/csv files in your Azure Data Lake
 - raw tables in your Azure SQL database
@@ -55,6 +55,31 @@ For example, the created Data Factory pipeline will connect to your source datab
 - external tables or views in your Azure SQL database
 
 ## Features
+
+|                                                | `Community` | [Pro](#buy){: .btn .align-center}            | `Enterprise`                                           |
+| ---------------------------------------------- | ----------- | -------------------------------------------- | ------------------------------------------------------ |
+| Alchemy CLI                                    | ✔           | ✔                                            | ✔                                                      |
+| Basic Azure Spells                             | ✔           | ✔                                            | ✔                                                      |
+| Schedulers                                     | ✔           | ✔                                            | ✔                                                      |
+| Store CSV / Parquet files in DataLake          | ✔           | ✔                                            | ✔                                                      |
+| Custom SQL queries to source                   |             | ✔                                            | ✔                                                      |
+| Delta data loads                               |             | ✔                                            | ✔                                                      |
+| Extended schedulers                            |             | ✔                                            | ✔                                                      |
+| **SaaS Connectors**                            |
+| Zendesk                                        | ✔           | ✔                                            | ✔                                                      |
+| Hubspot                                        |             | ✔                                            | ✔                                                      |
+| PureCloud CRM                                  |             |                                              | ✔                                                      |
+| Xero                                           |             |                                              | ✔                                                      |
+| Pronto                                         |             |                                              | ✔                                                      |
+| **Database Connectors**                        |
+| Azure SQL                                      | ✔           | ✔                                            | ✔                                                      |
+| On-premise DB (MSSQL, Oracle, DB2, PostgreSQL) |             | ✔                                            | ✔                                                      |
+| JDE                                            |             |                                              | ✔                                                      |
+| **Targets**                                    |
+| Azure DataLake                                 | ✔           | ✔                                            | ✔                                                      |
+| Azure SQL                                      | ✔           | ✔                                            | ✔                                                      |
+| Azure Synapse Analytics                        |             |                                              | ✔                                                      |
+|                                                |             | [Buy](#buy){: .btn .btn--info .align-center} | [Contact Us](#buy){: .btn .btn--warning .align-center} |
 
 Want to pull data into Synapse Analytics? Alchemy will cast elements in Synapse format for you.
 

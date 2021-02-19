@@ -1,12 +1,12 @@
 ---
-title: "dw-azure"
-excerpt: "Essential set of tools for Data Warehouse projects in Azure."
+title: "sql-connector"
+excerpt: Extract tables, views, and run custom queries in Azure SQL
 header:
-  # image: /assets/images/unsplash-gallery-image-2.jpg
-  teaser: assets/images/dw-common-h.png
+  # image: /assets/images/sql-connector.jpg
+  teaser: assets/images/spells/262-cloud-computing-3.svg
 sidebar:
   - title: "Role"
-    image: assets/images/dw-common-h.png
+    image: assets/images/spells/262-cloud-computing-3.svg
     image_alt: "logo"
     text: "DWH developer, SQL developer"
   - title: "API version"
@@ -14,7 +14,7 @@ sidebar:
   - title:
     text: "<a href='https://www.fatfreecartpro.com/i/10es1?card' style='display:inline-block;background: #3da5d9 url(https://www.e-junkie.com/ej/images/newviewproduct.png) center/110px no-repeat;border: none;padding: 7px 55px;border-radius: 3px;box-shadow: 1px 2px 2px rgba(0,0,0,0.2);text-decoration: none;'>&nbsp;</a>"
 # gallery:
-#   - url: /assets/images/dw-common-h.png
+#   - url: /assets/images/spells/034-box.svg
 #     image_path: assets/images/unsplash-gallery-image-1-th.jpg
 #     alt: "placeholder image 1"
 #   - url: /assets/images/unsplash-gallery-image-2.jpg
