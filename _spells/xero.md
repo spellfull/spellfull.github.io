@@ -1,12 +1,12 @@
 ---
-title: "dw-azure"
+title: "Xero"
 excerpt: "Essential set of tools for Data Warehouse projects in Azure."
 header:
   # image: /assets/images/unsplash-gallery-image-2.jpg
   teaser: assets/images/spells/xero.svg
 sidebar:
   - title: "Role"
-    image: assets/images/dw-common-h.png
+    image: assets/images/spells/xero.svg
     image_alt: "logo"
     text: "DWH developer, SQL developer"
   - title: "API version"
