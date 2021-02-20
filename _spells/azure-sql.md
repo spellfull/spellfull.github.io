@@ -3,10 +3,10 @@ title: "Azure Sql"
 excerpt: "Essential set of tools for Data Warehouse projects in Azure."
 header:
   # image: /assets/images/unsplash-gallery-image-2.jpg
-  teaser: assets/images/spells/azureSql.svg
+  teaser: assets/images/spells/azureSql-c.svg
 sidebar:
   - title: "Role"
-    image: assets/images/spells/azureSql.svg
+    image: assets/images/spells/azureSql-c.svg
     image_alt: "logo"
     text: "DWH developer, SQL developer"
   - title: "API version"

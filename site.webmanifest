@@ -1,0 +1,20 @@
+{
+    "name": "Alchemy.io",
+    "short_name": "Alchemy.io",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png?v=lkvKdq779x",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png?v=lkvKdq779x",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "https://alchemy.io",
+    "display": "standalone"
+}
