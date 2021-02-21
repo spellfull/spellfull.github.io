@@ -41,11 +41,11 @@ docs:
         url: /docs/authors/
       - title: "Layouts"
         url: /docs/layouts/
-  - title: Content
+  - title: Meta-Morphology
     children:
-      - title: "Working with Posts"
+      - title: "Working with Elements"
         url: /docs/posts/
-      - title: "Working with Pages"
+      - title: "Morphing Elements"
         url: /docs/pages/
       - title: "Working with Collections"
         url: /docs/collections/
